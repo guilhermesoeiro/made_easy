@@ -1,0 +1,14 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #143c4b;
+      }
+    </style>
+  </defs>
+  <title>health_icon</title>
+  <g>
+    <path class="cls-1" d="M595-393a16.3,16.3,0,0,0-6,1v14h22v38H589v22H551v-22H529v-38h22v-14a20.5,20.5,0,0,0-6-1c-15,0-27,15.7-27,33,0,34.4,52,63,52,63s52-28.6,52-63C622-376.6,610-393,595-393Z" transform="translate(-518 393)"/>
+    <path class="cls-1" d="M583-372v-19a28.9,28.9,0,0,0-8,5v22h22v10H575v23H565v-23H543v-10h22v-21.9a30.4,30.4,0,0,0-8-5.1v19H535v26h22v23h26v-23h22v-26H583Z" transform="translate(-518 393)"/>
+  </g>
+</svg>

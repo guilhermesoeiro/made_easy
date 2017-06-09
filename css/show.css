@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic);
+
+@charset "utf-8";
+
+body {
+    height: 100%;
+    padding: 0;
+    display: flex;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#main_show {
+    width: 660px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#main_rec_show {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.space_btw {
+    width: 20px;
+    min-width: 20px;
+    height: 100%;
+}
+
+.space_btw2 {
+    width: 12px;
+    height: 100%;
+}
+
+#dest_show {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 8px;
+}
+
+.new_title {
+    height: 48px;
+    min-height: 48px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.new_txt {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.new_dots {
+    width: 30px;
+    min-width: 30px;
+    height: 10px;
+    min-height: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(IMG/icons/other/more_dots_w.svg);
+    transition: 0.7s;
+    opacity: 1;
+}
+
+.art_shader {
+    width: 200px;
+    height: 100px;
+    transition: 0.7s;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.art_shader:before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: #143c4b;
+    opacity: 0.8;
+}
+
+#art_home1:hover .art_shader, #art_home2:hover .art_shader, #art_home3:hover .art_shader, #art_home4:hover .art_shader, #art_health1:hover .art_shader, #art_health2:hover .art_shader, #art_health3:hover .art_shader, #art_health4:hover .art_shader, #art_cook1:hover .art_shader, #art_cook2:hover .art_shader, #art_cook3:hover .art_shader, #art_cook4:hover .art_shader, #art_train1:hover .art_shader, #art_train2:hover .art_shader, #art_train3:hover .art_shader, #art_train4:hover .art_shader, #art_tech1:hover .art_shader, #art_tech2:hover .art_shader, #art_tech3:hover .art_shader, #art_tech4:hover .art_shader, #art_home1:focus .art_shader, #art_home2:focus .art_shader, #art_home3:focus .art_shader, #art_home4:focus .art_shader, #art_health1:focus .art_shader, #art_health2:focus .art_shader, #art_health3:focus .art_shader, #art_health4:focus .art_shader, #art_cook1:focus .art_shader, #art_cook2:focus .art_shader, #art_cook3:focus .art_shader, #art_cook4:focus .art_shader, #art_train1:focus .art_shader, #art_train2:focus .art_shader, #art_train3:focus .art_shader, #art_train4:focus .art_shader, #art_tech1:focus .art_shader, #art_tech2:focus .art_shader, #art_tech3:focus .art_shader, #art_tech4:focus .art_shader, #art_home1:active .art_shader, #art_home2:active .art_shader, #art_home3:active .art_shader, #art_home4:active .art_shader, #art_health1:active .art_shader, #art_health2:active .art_shader, #art_health3:active .art_shader, #art_health4:active .art_shader, #art_cook1:active .art_shader, #art_cook2:active .art_shader, #art_cook3:active .art_shader, #art_cook4:active .art_shader, #art_train1:active .art_shader, #art_train2:active .art_shader, #art_train3:active .art_shader, #art_train4:active .art_shader, #art_tech1:active .art_shader, #art_tech2:active .art_shader, #art_tech3:active .art_shader, #art_tech4:active .art_shader {
+    height: 100%;
+    transition: 0.5s;
+}
+
+#art_home1:hover .art_shader:before, #art_home2:hover .art_shader:before, #art_home3:hover .art_shader:before, #art_home4:hover .art_shader:before, #art_health1:hover .art_shader:before, #art_health2:hover .art_shader:before, #art_health3:hover .art_shader:before, #art_health4:hover .art_shader:before, #art_cook1:hover .art_shader:before, #art_cook2:hover .art_shader:before, #art_cook3:hover .art_shader:before, #art_cook4:hover .art_shader:before, #art_train1:hover .art_shader:before, #art_train2:hover .art_shader:before, #art_train3:hover .art_shader:before, #art_train4:hover .art_shader:before, #art_tech1:hover .art_shader:before, #art_tech2:hover .art_shader:before, #art_tech3:hover .art_shader:before, #art_tech4:hover .art_shader:before, #art_home1:focus .art_shader:before, #art_home2:focus .art_shader:before, #art_home3:focus .art_shader:before, #art_home4:focus .art_shader:before, #art_health1:focus .art_shader:before, #art_health2:focus .art_shader:before, #art_health3:focus .art_shader:before, #art_health4:focus .art_shader:before, #art_cook1:focus .art_shader:before, #art_cook2:focus .art_shader:before, #art_cook3:focus .art_shader:before, #art_cook4:focus .art_shader:before, #art_train1:focus .art_shader:before, #art_train2:focus .art_shader:before, #art_train3:focus .art_shader:before, #art_train4:focus .art_shader:before, #art_tech1:focus .art_shader:before, #art_tech2:focus .art_shader:before, #art_tech3:focus .art_shader:before, #art_tech4:focus .art_shader:before, #art_home1:active .art_shader:before, #art_home2:active .art_shader:before, #art_home3:active .art_shader:before, #art_home4:active .art_shader:before, #art_health1:active .art_shader:before, #art_health2:active .art_shader:before, #art_health3:active .art_shader:before, #art_health4:active .art_shader:before, #art_cook1:active .art_shader:before, #art_cook2:active .art_shader:before, #art_cook3:active .art_shader:before, #art_cook4:active .art_shader:before, #art_train1:active .art_shader:before, #art_train2:active .art_shader:before, #art_train3:active .art_shader:before, #art_train4:active .art_shader:before, #art_tech1:active .art_shader:before, #art_tech2:active .art_shader:before, #art_tech3:active .art_shader:before, #art_tech4:active .art_shader:before {
+    opacity: 1;
+}
+
+#art_home1:hover .new_dots, #art_home2:hover .new_dots, #art_home3:hover .new_dots, #art_home4:hover .new_dots, #art_health1:hover .new_dots, #art_health2:hover .new_dots, #art_health3:hover .new_dots, #art_health4:hover .new_dots, #art_cook1:hover .new_dots, #art_cook2:hover .new_dots, #art_cook3:hover .new_dots, #art_cook4:hover .new_dots, #art_train1:hover .new_dots, #art_train2:hover .new_dots, #art_train3:hover .new_dots, #art_train4:hover .new_dots, #art_tech1:hover .new_dots, #art_tech2:hover .new_dots, #art_tech3:hover .new_dots, #art_tech4:hover .new_dots, #art_home1:focus .new_dots, #art_home2:focus .new_dots, #art_home3:focus .new_dots, #art_home4:focus .new_dots, #art_health1:focus .new_dots, #art_health2:focus .new_dots, #art_health3:focus .new_dots, #art_health4:focus .new_dots, #art_cook1:focus .new_dots, #art_cook2:focus .new_dots, #art_cook3:focus .new_dots, #art_cook4:focus .new_dots, #art_train1:focus .new_dots, #art_train2:focus .new_dots, #art_train3:focus .new_dots, #art_train4:focus .new_dots, #art_tech1:focus .new_dots, #art_tech2:focus .new_dots, #art_tech3:focus .new_dots, #art_tech4:focus .new_dots, #art_home1:active .new_dots, #art_home2:active .new_dots, #art_home3:active .new_dots, #art_home4:active .new_dots, #art_health1:active .new_dots, #art_health2:active .new_dots, #art_health3:active .new_dots, #art_health4:active .new_dots, #art_cook1:active .new_dots, #art_cook2:active .new_dots, #art_cook3:active .new_dots, #art_cook4:active .new_dots, #art_train1:active .new_dots, #art_train2:active .new_dots, #art_train3:active .new_dots, #art_train4:active .new_dots, #art_tech1:active .new_dots, #art_tech2:active .new_dots, #art_tech3:active .new_dots, #art_tech4:active .new_dots {
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+#art_home1, #art_home2, #art_home3, #art_home4, #art_health1, #art_health2, #art_health3, #art_health4, #art_cook1, #art_cook2, #art_cook3, #art_cook4, #art_train1, #art_train2, #art_train3, #art_train4, #art_tech1, #art_tech2, #art_tech3, #art_tech4 {
+    width: 200px;
+    height: 256px;
+    margin-top: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+#art_home1 {
+    background-image: url(IMG/home/headlight_thumb.jpg);
+}
+
+#art_home2 {
+    background-image: url(IMG/home/lifehack1_thumb.jpg);
+}
+
+#art_home3 {
+    background-image: url(IMG/home/cleaning_thumb.jpg);
+}
+
+#art_home4 {
+    background-image: url(IMG/home/cooking_thumb.jpg);
+}
+ 
+#art_health1 {
+    background-image: url(IMG/health/active_thumb.jpg);
+}
+
+#art_health2 {
+    background-image: url(IMG/health/almond-milk_thumb.jpg);
+}
+
+#art_health3 {
+    background-image: url(IMG/health/Avocado_tumb.jpg);
+}
+
+#art_health4 {
+    background-image: url(IMG/health/guidediet_thumb.jpg);
+}
+
+#art_cook1 {
+    background-image: url(IMG/cook/tamagoyaki_nowakame_thumb.jpg);
+}
+
+#art_cook2 {
+    background-image: url(IMG/cook/chicken-crepes_thumb.jpg);
+}
+
+#art_cook3 {
+    background-image: url(IMG/cook/White-Bean-Burger_thumb.jpg);
+}
+
+#art_cook4 {
+    background-image: url(IMG/cook/creamy-mushroom-thumb.jpg);
+}
+
+#art_train1 {
+    background-image: url(IMG/train/core_des_thumb.jpg);
+}
+
+#art_train2 {
+    background-image: url(IMG/train/stretching_thumb.jpg);
+}
+
+#art_train3 {
+    background-image: url(IMG/train/home_workout_thumb.jpg);
+}
+
+#art_train4 {
+    background-image: url(IMG/train/parkour_thumb.jpg);
+}
+
+#art_tech1 {
+    background-image: url(IMG/tech/programs_thumb.jpg);
+}
+
+#art_tech2 {
+    background-image: url(IMG/tech/pc_build_thumb.jpg);
+}
+
+#art_tech3 {
+    background-image: url(IMG/tech/water_air_thumb.jpg);
+}
+
+#art_tech4 {
+    background-image: url(IMG/tech/phones_thumb.jpg);
+}
+
+@media screen and (max-width: 660px){
+    #main_show {
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #main_show {
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #dest_show {
+        margin-left: 15px;
+        margin-top: 0px;
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0px 10px;
+    }
+    
+    .space_btw2 {
+        width: 10px;
+        min-width: 10px;
+        height: 100%;
+    }
+    
+    #art_home1, #art_home2, #art_home3, #art_home4, #art_health1, #art_health2, #art_health3, #art_health4, #art_cook1, #art_cook2, #art_cook3, #art_cook4, #art_train1, #art_train2, #art_train3, #art_train4, #art_tech1, #art_tech2, #art_tech3, #art_tech4 {
+    margin-top: 10px;
+    
+}
